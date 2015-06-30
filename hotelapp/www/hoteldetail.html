@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />          
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.2.min.css"/>
+        <link rel="stylesheet" href="css/mystyle.css"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile-1.1.2.min.js"></script>
+        
+    </head>
+    <body>
+        <div data-role="page" id="detailPage" data-add-back-btn="true">
+            <div data-role="header" data-theme="b" data-position="fixed">
+                <h1>Hotel Details</h1>     
+                <a href="#" id='editBtn' data-icon="gear" data-transition="slide" class="ui-btn-right">Edit</a>
+            </div>
+            <div data-role="content">
+                <img id="hotelImg"/>
+                <div id="hotelDetails">
+                    <h3 id="name"></h3>                    
+                    <p id="address"></p>
+                </div>
+                <ul data-role="listview" data-inset="true" id="detailList">                  
+                </ul>
+            </div>
+        </div>
+         
+        <!--<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>-->
+       
+    </body>
+</html>
